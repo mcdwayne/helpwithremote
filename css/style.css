@@ -53,7 +53,7 @@ height: 175px;
 }
 
 .footer {
-    height:70px;
+    height: auto;
     margin-top:15px;
     background-color:#503b32;
     opacity: 0.8;
@@ -72,7 +72,7 @@ a:link {
   
   /* visited link */
   a:visited {
-    color: green;
+    color: #f8ffff;
   }
   
   /* mouse over link */
