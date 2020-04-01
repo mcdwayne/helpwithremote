@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+
 body { 
     margin:0; 
     padding:0; 
@@ -7,6 +11,7 @@ body {
     color: #c8f7c5;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: lighter;
+    font-size: 7vw;
     font-size: larger;
     overflow: auto;
 }
@@ -30,18 +35,20 @@ height: 175px;
 }
 
 .content {
-    width:690px;
-    height:400px;
+    width: 75vw;
+    height:auto;
     background-color:#503b32;
     float:right;
     /* border: thick;
     border-style: solid;
     border-color: black; */
     padding: 5px 5px 5px 5px;
+    width:60%;
+    
 }
 
 .sidebar {
-    width:275px;
+    width:25vw;
     height:400px;
     background-color:#503b32;
     float:left;
@@ -80,3 +87,24 @@ a:link {
     color: hotpink;
   }
   
+  @media only screen and (max-width:620px) {
+    /* For mobile phones: */
+
+    .header{
+        width: 60vw;
+        height: auto;
+        justify-content: center;
+    }
+    .content, .footer {
+      float:left;
+      width:100vw;
+      height: auto;
+    }
+    .sidebar {
+        width:100vw;
+        height:auto;
+        float: inherit;
+        display:block;        
+        text-align:center;
+    }
+  }
