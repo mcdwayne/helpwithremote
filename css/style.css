@@ -9,6 +9,7 @@ body {
     font-weight: lighter;
     font-size: larger;
     overflow: auto;
+    text
 }
 
 .wrap {
@@ -65,3 +66,18 @@ h1{
   /* border-width: 30px; */
   border-color: transparent;  
 }
+/* unvisited link */
+a:link {
+    color: #c8f7ff;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
