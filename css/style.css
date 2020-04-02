@@ -108,3 +108,12 @@ a:link {
         text-align:center;
     }
   }
+
+li {
+    margin-bottom: 30px;
+  }
+  
+li:last-child {
+   margin-bottom: 0px;
+  }
+  
